@@ -25,12 +25,28 @@
 
   // Setting a default value to a function parameter.</
 
-  function myfunction(x,y){
-    if (y ===undefined){
-      y = 2;
-    }
+  // function myfunction(x,y){
+  //   if (y ===undefined){
+  //     y = 2;
+  //   }
 
-    return x*y
+  //   return x*y
+  // }
+
+  // document.getElementById("demo").innerHTML = myfunction(4);
+
+
+  // Defualt parameters
+
+
+  // /<h1>JavaScript Functions</h1>
+  // <h2>Default Parameter Values</h2>
+  // <p>If y is not passed or undefined, then y = 10:</p>
+  
+  function myfunction(x, y=10){
+ return x + y;
+
   }
+document.getElementById("demo").innerHTML = myfunction(4);
 
-  document.getElementById("demo").innerHTML = myfunction(4);
+
