@@ -12,4 +12,9 @@
 
 // finding tags using dom
 
-document.getElementsByTagName("").innerHTML ="brayo";
+// document.getElementsByTagName("demo").innerHTML ="brayo";
+
+
+// const element = document.getElementsByTagName("p");
+
+// document.getElementsById("demo").innerHTML = 'The text in  first paragraph(index 0) is:' + element[0].innerHTML;

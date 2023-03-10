@@ -7,14 +7,15 @@
     <title>js Elements</title>
 </head>
 <body>
-    <p id="demo">javascript body</p>
-
+    
 
     <!-- <h1>JavaScript Functions</h1>
 <h2>Default Parameter Values</h2>
 <p>If y is not passed or undefined, then y = 10:</p> -->
+<p  id="demo"></p>
 
-
+<!-- <p>Finding HTML Elements by Tag Name.</p>
+<p>This example demonstrates the <b>getElementsByTagName</b> method.</p> -->
 
 
 </body>
@@ -23,4 +24,30 @@
 
 </script> -->
 <!-- <script src="invokingfunctions.js"></script> -->
-<script src="dom.js"></script>
+<!-- <script src="dom.js"></script> -->
+<p>Finding HTML Elements by Class Name.</p>
+<p class="intro">Hello World!</p>
+<p class="intro">This example demonstrates the <b>getElementsByClassName</b> method.</p>
+
+
+   <p id=""></p>
+<script>
+
+
+
+const x = document.("intro");
+document.getElementById("demo").innerHTML = 'The first paragraph (index 0) with  class="intro is: ' +
+x[0].innerHTML;
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
